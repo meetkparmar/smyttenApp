@@ -1,4 +1,4 @@
-package com.example.smyttenapp.ui.theme
+package com.example.smyttenapp.theme
 
 import android.app.Activity
 import android.os.Build
