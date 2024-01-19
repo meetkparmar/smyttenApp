@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
 
             else -> Intent(this, ActivityF::class.java)
         }
-        if (viewModel.remainingTime > 0) {
+        if (viewModel.remainingTime > 1000L) {
             intent.putExtra(TIME, viewModel.remainingTime)
             viewModel.showDialog = false
         }
